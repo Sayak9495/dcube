@@ -1,0 +1,13 @@
+<svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" class="logo">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" id="svg_1" height="40.04517" width="39.98584" y="-0.05225" x="0.166513" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffdd9d"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="20" id="svg_3" y="4.89293" x="2.36626" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#333333" transform="matrix(0.33435541069646035,0,0,0.3747140957933226,17.949475449952885,13.822465451426664) " stroke="#000000">D</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Serif" font-size="20" id="svg_4" y="-20.33488" x="-18.99413" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#333333" transform="matrix(0.4662607286532379,0,0,0.43319769813815817,28.68952138411177,28.912618515077956) " stroke="#000000">Cube</text>
+  <text stroke="#000000" transform="matrix(0.21132494509220123,0,0,0.2109375149011612,60.91282494389452,27.77746529574506) " fill="#333333" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="-193.071789" y="15.65299" id="svg_2" font-size="20" font-family="Courier" text-anchor="middle" xml:space="preserve">D E C O D E</text>
+  <text id="svg_5" stroke="#000000" transform="matrix(0.21132494509220123,0,0,0.2109375149011612,60.91282494389452,27.77746529574506) " fill="#333333" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="-192.703328" y="31.96549" font-size="20" font-family="Courier" text-anchor="middle" xml:space="preserve">D E B U G</text>
+  <text id="svg_6" stroke="#000000" transform="matrix(0.21132494509220123,0,0,0.2109375149011612,60.91282494389452,27.77746529574506) " fill="#333333" stroke-width="0" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="-192.984048" y="48.27799" font-size="20" font-family="Courier" text-anchor="middle" xml:space="preserve">D E P L O Y</text>
+  <rect stroke="#000000" id="svg_7" height="24.593172" width="26.192092" y="2.070291" x="6.927617" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0.1" fill="none"/>
+ </g>
+</svg>

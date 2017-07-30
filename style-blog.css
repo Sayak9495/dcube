@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite|Pacifico|Audiowide|VT323|Patrick+Hand+SC|Rubik|Quicksand|Orbitron:200,400,,600,800');
+
+/* NAVBAR PROPERTIES */
+.navbar{
+    border-radius:0px;
+    margin-bottom:0px;
+    background-color:#663399;
+}   
+.logo{
+  margn:25px 20px 0px 1120px;
+  margin-right:50px;
+  width:80px;height:80px;
+  position:relative;
+  z-index: 2;
+  transition: transform 0.7s;
+  transition-timing-function: ease;
+}
+.logo:hover {
+    transform:scale(1.1);
+}
+
+li{
+    margin:10px;
+}
+
+a.top-bar{
+    color:#fff;
+    font-size:17px;
+    font-family:Rubik;
+    letter-spacing:0.1em;
+}
+a.top-bar:hover {
+    color:#663399;
+}
+span{
+    background-color:#3d3e3f;
+}
+button.collapsed{
+    border-style:solid;
+    border-color:#3d3e3f;
+    font-size:18px; 
+    padding: 8px 15px;
+    border-width:1.5px;
+}
+
+@media screen and (max-width: 760px) {
+    a.top-bar {
+        font-size:10px;
+        text-align:right;
+    }
+    .logo{
+        position:absolute;
+        width:70px;height:70px;
+    }
+    button.collapsed {
+        font-size:10px;
+        padding:7px 8px;
+        border-width:1px;
+    }
+}
+
+/* COVER PROPERTIES */
+div.cover{
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		-moz-justify-content: center;
+		-webkit-justify-content: center;
+		-ms-justify-content: center;
+		justify-content: center;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+        position: relative; 
+        background-position: center;
+		background-attachment: fixed;
+		padding: 8em 0em 6em 0em;
+		background-image: url('images/cover.png');
+		background-size: 100%;
+		text-align: center;
+        filter:contrast(80%);  
+        z-index: 1;        
+}
+
+h1.cover-heading{
+    color:#e74c3c;
+    font-family:Rubik;
+    font-size:54px;
+    letter-spacing:0.2em;
+    font-weight:900;
+    filter:contrast(110%);
+}
+@media screen and (max-width: 760px){
+    h1.cover-heading{
+        font-size:24px;
+    }
+    div.cover{
+        padding:7em 0em 3em 0em;
+        background-position:bottom;
+    }
+}
+img.cover-logo{
+    filter:contrast(120%);
+    width:8%;
+}
+
+/* Content*/
+
+div.content{
+    max-width:960px;
+    margin:20px auto;
+    font-family:Quicksand;
+    padding:20px;
+    background:#ededed;
+    font-size:20px;
+}
+.images{
+    margin:20px auto;
+}
+
+.infograph{
+    width:25%;
+}
+.cover-like{
+    width:90%;
+}
+h1#content-heading{
+    font-size:54px;
+    font-weight:500;
+}
+
+.first-hr{
+    margin-right:300px;
+    max-width:960px;
+    background-color:#404040;
+    height:0.1em;
+    border:0;
+}
+
+@media screen and (max-width: 760px){
+    div.content{
+        margin:auto;
+        padding:10px;
+        font-size:14px;
+    }
+    h1#content-heading{
+        font-size:24px;
+    }
+    .first-hr{
+        margin-left:5px;
+        width:40%;
+    }
+}
+
+/* FOOTER */
+
+.last-section{
+    background-color:#1d1d1d;
+    color:#fff;
+    padding:10px;
+}
+
+.last-heading{
+    text-align:center;
+    color:#e74c3c;
+    font-family:Quicksand;
+    font-size:40px;
+    font-weight:600;
+}
+.icons{
+    margin:auto;
+    text-align:center;
+    padding:20px;
+}
+
+
+@media screen and (max-width: 760px) {
+    .fa{
+        padding:10px;
+        margin:5px;
+    }
+    .icons{
+        padding:0px;
+    }
+    .last-heading {
+        font-size:30px;
+    }
+}
+
+
+
+
+/* MESSING */
+
+.fa {
+  padding: 15px;
+  color:#737373;
+  color:#fff;
+  margin:10px;
+}
+
+a:hover{
+  text-decoration:none;
+}
+.fa-twitter{
+    background-color:rgb(29,161,242);
+}
+.fa-twitter:hover{
+  color:rgb(29,161,242);
+  background-color:#cccdce;
+}
+.fa-facebook-square{
+    background-color:rgb(59,89,152);
+}
+.fa-facebook-square:hover{
+  color:rgb(59,89,152);
+  background-color:#cccdce;
+}
+.fa-instagram{
+    background-color:#ff3333;
+}
+.fa-instagram:hover{
+  color:#ff3333;
+  background-color:#cccdce;
+}
+
+.fa-github{
+    background-color:rgb(36,41,46);
+}
+.fa-github:hover{
+  color:rgb(36,41,46);
+  background-color:#cccdce;
+}
+
+.last-p{
+    font-size:14px;
+    font-family:Rubik;
+    text-align:center;   
+}
+
+
+
+ /*------------------------------ Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: fixed;
+    top: 100px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 760px) {
+    .close {
+        position: fixed;
+        top:50px;
+    }
+}
+
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+} 
+/* DONE MODAL DONT MESS UP*/
+
+/* ----------------------------------------------*/
+
+@media screen and (max-width: 760px){
+    #freelancing-01{
+        width:50%;
+    }
+}
+
+
+
