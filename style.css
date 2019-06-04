@@ -108,6 +108,7 @@ h1.cover-heading{
 img.cover-logo{
     filter:contrast(120%);
     width:8%;
+    border-radius: 50%;
 }
 
 /* ABOUT US and What are we trying to do */
